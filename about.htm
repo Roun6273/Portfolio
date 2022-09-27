@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <body>
+        <link rel="Stylesheet" href="index.css"/>
+        <title> Tracy R About </title>
+        <div class="upmenu">
+            <a class ="main" href="Index.htm">Home</a>
+            <a class ="about" href="about.htm">About Me</a>
+            <a class ="Port" href="Portfolio.htm">My Portfolio</a>
+            <a class ="Contact" href="contact.htm">Contact Me</a>
+            <a class ="sign_in" href="#signIn">Sign In</a> 
+            <a class ="sign_up" href="#signUp">Sign Up</a>
+        </div>
+        <div class="botmenu">
+            <a class ="active" href="Terms.htm">Terms and Conditions</a>
+            <a class ="active" href="Priv.htm">Privacy Policy</a>
+            <a class ="active" href="Cookies.htm">Cookie Policy</a>
+        </div>
+        <img class="mainpic" src="D:\Tracy School\CS 360\Lab\Portfolio\Images\Self_Pic.jpg" alt="Tracy Rountree Picture">
+        <h1 class="About_H1"> Hello There!</h1><br>
+        <p class="About_P"> Welcome to my portfolio website. I apporeciate you taking valuable time out of your day, to learn more about me and my skills. 
+            Please feel free to browse around the website to learn more and see some of my work. Should you have any questions or want to get intouch with me about 
+            any of my work, or any inquiries regarding future work, or even to chat about how the weather is going, you are welcome to visit the "Contact Me" 
+            link above to find any pertenent contact information! Have a fantastic day!</p>
+
+        <p class="About_P"> If you would like to get a regular update on new projects or projects that I am currently working on, 
+            you are welcome to sign up for an account, for exclusive access to files, or even a fun grill recipe of the month! To do so, please visit the
+             "Sign up / Sign in" links above for more! </p><br>
+        <H2 class="About_H2"> A little something about who I am...</H2>
+        <p class="About_P"> I am currently a degree seeking student at the University of Idaho, seeking a Batchlors of Science, in Computer Science, Hoping to one day make my way into the field of Software Engineering. Currently, I am on track to graduate in the spring of 2025, taking part time classes, while working full time at Schweitzer Engineering Labratories as an Assembler Specalist in Manufacturing. </p>
+        <P class="About_P"> In my free time, I love spending with my family, as my wife Tori, and myself have just recently adoped an amazing little 3 year old named Nick! 
+            We love hanging out on the weekends, or any free time, watching movies, or even playing at the park! I also love to be outdoors, and try to do as many activities as 
+            I can outside! Some of my favorite activities include: Skiing, Downhill Mountain Biking, Hiking, Fishing, Yard Work, and of course, I love grilling outside! 
+            Some of the other hobbies that I enjoy doing is woodworking, mechanics, 3D modeling/ printing, and even learning a new skill on the computer that I didn't know before!  </P>
+        <!--Modal information for sign up  button here--> 
+    <div class="modal" id="signup_modal">
+        <div class="modal_content">
+            <span class="close_button">&times;</span>
+            <div class="modal_Left_content">
+                <img id="modal-img" src="D:\Tracy School\CS 360\Lab\Portfolio\Images\PCB1.jpg" alt="Neon PCB circuits!">
+            </div>
+            <div class="modal_Right_content">
+                <form action="/" method="GET" class="modal_form" id="form">
+                <h1>Get started with your new insider account now! Please fill out all information below!</h1>
+                    <div class="form_validation">
+                        <input type="text" class="modal_input" id="Name" name="Name" placeholder="Enter Name">
+                        <p>Error message</p>
+                    </div> 
+                    <div class="form_validation">
+                        <input type="email" class="modal_input" id="email" name="email" placeholder="Enter perferred email">
+                        <p>Error message</p>
+                    </div>
+                    <div class="form_validation">
+                        <input type="password" class="modal_input" id="password" name="password_init" placeholder="Enter New Password">
+                        <p>Error message</p>
+                    </div>
+                    <div class="form_validation">
+                        <input type="password" class="modal_input" id="Verify_Password" name="password_confirm" placeholder="Enter reenter password">
+                        <p>Error message</p>
+                    </div>
+                    <input type="submit" class="modal_input_btn" value="Sign Up!">
+                    <span class="modal_input_login">Already have an account? Login <a href="#">HERE</a></span>
+                </form>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
